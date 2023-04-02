@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding a Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffa154;
+            color: #000000;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Bernard MT Condensed', sans-serif;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        label {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        input[type="text"] {
+            font-size: 16px;
+            padding: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            font-size: 16px;
+            padding: 5px 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #996633;
+            color: white;
+            border: none;
+        }
+
+        input[type="reset"] {
+            background-color: white;
+            color: #800000;
+            border: 1px solid #800000;
+        }
+
+        .required {
+            color: red;
+        }
+
+        .note {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add a New Home</h1>
+    <p align="center">Please enter home ID and address.</p>
+
+    <form method="post" action="/CSI/AddNewHome">
+        <table>
+            <tr>
+                <td>Home ID <span class="required">*</span></td>
+                <td><input type="text" name="HOMEID"> (Can be any number of digits)</td>
+            </tr>
+            <tr>
+                <td>Address <span class="required">*</span></td>
+                <td><input type="text" name="ADDRESS" size="25"></td>
+            </tr>
+            <tr>
+                <td>Floor Space</td>
+                <td><input type="text" name="FLOORSPACE" size="25"> (Please enter in sq.ft)</td>
+            </tr>
+            <tr>
+                <td>Floors</td>
+                <td><input type="text" name="FLOORS" size="25"></td>
+            </tr>
+            <tr>
+                <td>Bedrooms</td>
+                <td><input type="text" name="BEDROOMS" size="25"></td>
+            </tr>
+            <tr>
+                <td>Full Bathrooms</td>
+                <td><input type="text" name="FULLBATHROOMS" size="25"></td>
+            </tr>
+            <tr>
+                <td>Half Bathrooms</td>
+                <td><input type="text" name="HALFBATHROOMS" size="25"></td>
+            </tr>
+			<tr>
+                <td>Land Size</td>
+                <td><input type="text" name="LANDSIZE" size="25"> (Please enter in acres)</td>
+            </tr>
+            <tr>
+                <td>Year Constructed</td>
+                <td><input type="text" name="YEARCONSTRUCTED" size="25"> (Ex. 1950)</td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <p class="note">Note: * required fields</p>
+</body>
+</html>

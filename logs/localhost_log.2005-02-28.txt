@@ -1,0 +1,230 @@
+2005-02-28 00:16:57 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-28 00:16:58 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-28 00:16:58 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-28 00:16:59 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-28 00:16:59 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-28 00:17:54 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-28 00:17:54 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-28 00:17:54 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-28 00:17:54 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2005-02-28 18:29:53 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-28 18:29:56 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-28 18:29:56 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-28 18:29:56 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-28 18:29:56 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-28 18:31:06 StandardWrapperValve[jsp]: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: /jsp/guestBookView.jsp(13,0) The value for the useBean class attribute com.deitel.iw3htp3.jsp.beans.GuestDataBean is invalid.
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:39)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:150)
+	at org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Generator.java:1217)
+	at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1116)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2163)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2213)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2219)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:456)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2163)
+	at org.apache.jasper.compiler.Generator.generate(Generator.java:3261)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:244)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:442)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:430)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:274)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2005-02-28 18:31:13 StandardWrapperValve[jsp]: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 37 in the jsp file: /jsp/guestBookErrorPage.jsp
+
+Generated servlet error:
+    [javac] Compiling 1 source file
+
+C:\jakarta-tomcat-5.0.25\work\Catalina\localhost\csc5750\org\apache\jsp\jsp\guestBookErrorPage_jsp.java:88: 'else' without 'if'
+		  else if ( exception instanceof ClassNotFoundException )
+                  ^
+
+
+
+An error occurred at line: 43 in the jsp file: /jsp/guestBookErrorPage.jsp
+
+Generated servlet error:
+C:\jakarta-tomcat-5.0.25\work\Catalina\localhost\csc5750\org\apache\jsp\jsp\guestBookErrorPage_jsp.java:96: 'else' without 'if'
+         else
+         ^
+2 errors
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:83)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:315)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:406)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:463)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:442)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:430)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:274)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2005-02-28 18:31:31 StandardWrapperValve[jsp]: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: /jsp/guestBookView.jsp(13,0) The value for the useBean class attribute com.deitel.iw3htp3.jsp.beans.GuestDataBean is invalid.
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:39)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:150)
+	at org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Generator.java:1217)
+	at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1116)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2163)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2213)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2219)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:456)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2163)
+	at org.apache.jasper.compiler.Generator.generate(Generator.java:3261)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:244)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:442)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:430)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:274)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2005-02-28 18:31:34 StandardWrapperValve[jsp]: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 37 in the jsp file: /jsp/guestBookErrorPage.jsp
+
+Generated servlet error:
+    [javac] Compiling 1 source file
+
+C:\jakarta-tomcat-5.0.25\work\Catalina\localhost\csc5750\org\apache\jsp\jsp\guestBookErrorPage_jsp.java:88: 'else' without 'if'
+		  else if ( exception instanceof ClassNotFoundException )
+                  ^
+
+
+
+An error occurred at line: 43 in the jsp file: /jsp/guestBookErrorPage.jsp
+
+Generated servlet error:
+C:\jakarta-tomcat-5.0.25\work\Catalina\localhost\csc5750\org\apache\jsp\jsp\guestBookErrorPage_jsp.java:96: 'else' without 'if'
+         else
+         ^
+2 errors
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:83)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:315)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:406)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:463)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:442)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:430)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:274)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2005-02-28 18:31:49 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-28 18:31:49 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-28 18:31:49 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-28 18:31:49 StandardContext[/jsp-examples]ContextListener: contextDestroyed()

@@ -1,0 +1,144 @@
+2005-02-23 07:34:53 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-23 07:34:55 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-23 07:34:55 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-23 07:34:55 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-23 07:34:55 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-23 07:36:04 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-23 07:36:06 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:36:08 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:37:03 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:37:06 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:38:49 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:38:58 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:40:16 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:40:18 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:40:20 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:40:24 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:41:54 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:42:31 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:42:34 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:42:38 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:42:48 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:44:39 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:44:41 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:47:36 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:48:01 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-23 07:48:01 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-23 07:48:01 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-23 07:48:01 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2005-02-23 07:48:14 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-23 07:48:15 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-23 07:48:15 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-23 07:48:16 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-23 07:48:16 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-23 07:48:16 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-23 07:48:29 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:48:41 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 07:49:27 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-23 07:49:27 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-23 07:49:27 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-23 07:49:27 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2005-02-23 08:05:26 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-23 08:05:27 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-23 08:05:27 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-23 08:05:27 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-23 08:05:27 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-23 08:06:07 StandardWrapperValve[animalsurvey]: Allocate exception for servlet animalsurvey
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:691)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+----- Root Cause -----
+java.lang.NoClassDefFoundError: SurveyServlet (wrong name: com/deitel/iw3htp3/servlets/SurveyServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:620)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:124)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:1634)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:860)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1307)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1189)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:954)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2005-02-23 08:06:51 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-23 08:06:51 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-23 08:06:51 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-23 08:06:51 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2005-02-23 08:07:51 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-23 08:07:52 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-23 08:07:52 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-23 08:07:52 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-23 08:07:52 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-23 08:08:12 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-23 08:08:20 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:10:09 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:10:19 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:11:10 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:12:52 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:01 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:10 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:20 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:23 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:30 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:33 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:13:39 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:16:11 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-23 08:16:11 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-23 08:16:11 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-23 08:16:11 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2005-02-23 08:20:42 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-23 08:20:42 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-23 08:20:42 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-23 08:20:42 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-23 08:20:42 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-23 08:21:52 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-23 08:22:06 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:22:14 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:24:10 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:24:31 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-23 08:27:13 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-23 08:27:13 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-23 08:27:13 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-23 08:27:13 StandardContext[/jsp-examples]ContextListener: contextDestroyed()

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #800000;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Bernard MT Condensed', sans-serif;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        input[type="text"] {
+            font-size: 16px;
+            padding: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            font-size: 16px;
+            padding: 5px 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #996633;
+            color: white;
+            border: none;
+        }
+
+        input[type="reset"] {
+            background-color: white;
+            color: #800000;
+            border: 1px solid #800000;
+        }
+    </style>
+</head>
+<body>
+    <h1>View Home Attributes</h1>
+    <p align="center">Please enter home ID</p>
+
+    <form method="get" action="/CSI/Selecthome">
+        <label for="home_id">Home ID</label>
+        <input type="text" name="HOMEID" id="home_id">
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- Removed JavaScript and OBJECT tag related to Microsoft Agent, as it is an outdated technology and not supported in modern browsers. -->
+</body>
+</html>

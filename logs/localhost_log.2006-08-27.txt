@@ -1,0 +1,9 @@
+2006-08-27 08:44:39 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2006-08-27 08:44:40 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2006-08-27 08:44:40 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2006-08-27 08:44:41 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2006-08-27 08:44:41 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2006-08-27 08:54:43 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2006-08-27 08:54:43 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2006-08-27 08:54:44 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2006-08-27 08:54:44 StandardContext[/servlets-examples]ContextListener: contextDestroyed()

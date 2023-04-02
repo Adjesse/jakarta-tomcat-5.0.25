@@ -1,0 +1,13 @@
+2005-02-09 19:00:34 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-09 19:00:36 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-09 19:00:36 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-09 19:00:37 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-09 19:00:37 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-09 19:01:16 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-09 19:01:54 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-09 19:01:58 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-09 19:02:02 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-09 19:03:43 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-09 19:03:43 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-09 19:03:43 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-09 19:03:43 StandardContext[/jsp-examples]ContextListener: contextDestroyed()

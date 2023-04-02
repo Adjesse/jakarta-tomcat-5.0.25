@@ -1,0 +1,53 @@
+<!-- AddAgent.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding an Agent</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #444453;
+            color: #ffffff;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+        .form-label {
+            color: #FF0000;
+        }
+        .form-control {
+            background-color: #000000;
+            color: #FF0000;
+        }
+        .required-field {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-4 mb-4">Add A New Agent</h2>
+        <p class="text-center">Please enter Person Id and license number</p>
+        <div class="form-container">
+            <form method="post" action="/CSI/AddAgent">
+                <div class="form-group">
+                    <label class="form-label" for="PERSONID">Person Id <span class="required-field">*</span></label>
+                    <input type="text" class="form-control" name="PERSONID" id="PERSONID" placeholder="The Id entered must be in the Person data table">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="LICENSENUM">License Number <span class="required-field">*</span></label>
+                    <input type="text" class="form-control" name="LICENSENUM" id="LICENSENUM" placeholder="Can be any number of digits">
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" name="Submit" class="btn btn-primary mr-2">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form>
+            <p class="text-center"><span class="required-field">Note: * required fields</span></p>
+        </div>
+    </div>
+</body>
+</html>

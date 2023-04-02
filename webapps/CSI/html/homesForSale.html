@@ -1,0 +1,41 @@
+<!-- homesForSale.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homes For Sale</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #48485c;
+            color: #ffffff;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+        .form-label {
+            color: #f8f8ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-4 mb-4">Homes For Sale In A Given City</h2>
+        <p class="text-center">Please list the city</p>
+        <div class="form-container">
+            <form method="get" action="/MCS5303/homesForSale">
+                <div class="form-group">
+                    <label class="form-label" for="CITY">City</label>
+                    <input type="text" class="form-control" name="CITY" id="CITY">
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" name="Submit" class="btn btn-primary mr-2">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

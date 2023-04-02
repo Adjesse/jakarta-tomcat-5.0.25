@@ -1,0 +1,39 @@
+2005-02-20 11:17:53 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2005-02-20 11:17:54 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2005-02-20 11:17:54 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2005-02-20 11:17:55 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2005-02-20 11:17:55 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2005-02-20 11:31:08 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 11:31:12 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:34:06 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:34:08 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 11:34:11 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:35:49 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:35:51 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:36:10 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 11:36:12 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:42:39 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 11:42:42 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:49:37 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:49:39 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:49:41 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:49:42 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 11:50:13 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 11:50:18 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:00:02 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 12:00:05 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:00:18 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:00:30 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:00:33 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 12:02:19 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:02:21 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:08:42 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 12:08:44 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:10:28 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:10:30 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:12:28 StandardContext[/csc5750]Marking servlet animalsurvey as unavailable
+2005-02-20 12:12:30 StandardWrapperValve[animalsurvey]: Servlet animalsurvey is currently unavailable
+2005-02-20 12:12:58 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2005-02-20 12:12:58 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2005-02-20 12:12:58 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2005-02-20 12:12:58 StandardContext[/jsp-examples]ContextListener: contextDestroyed()

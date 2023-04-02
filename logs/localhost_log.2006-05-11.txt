@@ -1,0 +1,18 @@
+2006-05-11 21:55:09 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2006-05-11 21:55:10 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2006-05-11 21:55:10 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2006-05-11 21:55:10 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2006-05-11 21:55:10 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2006-05-11 21:55:34 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2006-05-11 21:55:34 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2006-05-11 21:55:34 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2006-05-11 21:55:34 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2006-05-11 21:56:31 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2006-05-11 21:56:31 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2006-05-11 21:56:31 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2006-05-11 21:56:31 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2006-05-11 21:56:31 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2006-05-11 21:59:20 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2006-05-11 21:59:20 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2006-05-11 21:59:20 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2006-05-11 21:59:20 StandardContext[/jsp-examples]ContextListener: contextDestroyed()

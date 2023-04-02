@@ -1,0 +1,484 @@
+2007-06-06 00:45:50 StandardWrapperValve[jsp]: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 104 in the jsp file: /S_Loc_Rev.jsp
+
+Generated servlet error:
+    [javac] Compiling 1 source file
+
+C:\jakarta-tomcat-5.0.25\work\Catalina\localhost\americanshieldsecurity\org\apache\jsp\S_005fLoc_005fRev_jsp.java:160: cannot find symbol
+symbol  : variable result2
+location: class org.apache.jsp.S_005fLoc_005fRev_jsp
+                                                             while(result2.next())
+                                                                   ^
+
+
+
+An error occurred at line: 110 in the jsp file: /S_Loc_Rev.jsp
+
+Generated servlet error:
+C:\jakarta-tomcat-5.0.25\work\Catalina\localhost\americanshieldsecurity\org\apache\jsp\S_005fLoc_005fRev_jsp.java:165: cannot find symbol
+symbol  : variable result2
+location: class org.apache.jsp.S_005fLoc_005fRev_jsp
+      out.print( result2.getString(7));
+                 ^
+2 errors
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:83)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:315)
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:406)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:463)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:442)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:430)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:511)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:274)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:292)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:236)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2007-06-06 01:42:10 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 01:42:10 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 01:42:11 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 01:42:11 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 02:31:44 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 02:31:45 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 02:31:45 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 02:31:46 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 02:31:46 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 02:32:18 StandardContext[/americanshieldsecurity]Marking servlet S_Loc_Rev_Servlet as unavailable
+2007-06-06 02:32:18 StandardContext[/americanshieldsecurity]Error loading WebappClassLoader
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+StandardClassLoader
+  delegate: true
+  repositories:
+    file:C:\jakarta-tomcat-5.0.25\shared\classes\
+----------> Parent Classloader:
+StandardClassLoader
+  delegate: true
+  repositories:
+    file:C:\jakarta-tomcat-5.0.25\common\classes\
+    file:C:\jakarta-tomcat-5.0.25\common\endorsed\xercesImpl.jar
+    file:C:\jakarta-tomcat-5.0.25\common\endorsed\xmlParserAPIs.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\ant.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-collections.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-dbcp-1.1.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-el.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-pool-1.1.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\jasper-compiler.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\jasper-runtime.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\jsp-api.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-common.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-factory.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-java.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-resources.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\servlet-api.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\servlet.jar
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@e39a3e
+
+
+ S_Loc_Rev_Servlet
+java.lang.ClassNotFoundException: S_Loc_Rev_Servlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1340)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1189)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:954)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2007-06-06 02:32:18 StandardWrapperValve[S_Loc_Rev_Servlet]: Allocate exception for servlet S_Loc_Rev_Servlet
+javax.servlet.ServletException: Wrapper cannot find servlet class S_Loc_Rev_Servlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:964)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+----- Root Cause -----
+java.lang.ClassNotFoundException: S_Loc_Rev_Servlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1340)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1189)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:954)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2007-06-06 02:32:39 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 02:32:39 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 02:32:39 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 02:32:39 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 02:33:43 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 02:33:43 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 02:33:43 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 02:33:44 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 02:33:44 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 02:34:20 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 02:34:20 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 02:34:20 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 02:34:20 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 02:49:20 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 02:49:21 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 02:49:21 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 02:49:22 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 02:49:22 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 02:50:19 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 02:50:19 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 02:50:19 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 02:50:19 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 09:42:26 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 09:42:28 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 09:42:28 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 09:42:30 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 09:42:30 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 09:48:35 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 09:48:35 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 09:48:36 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 09:48:36 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 09:49:43 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 09:49:44 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 09:49:44 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 09:49:45 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 09:49:45 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 09:54:06 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 09:54:06 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 09:54:07 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 09:54:07 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 09:54:31 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 09:54:32 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 09:54:32 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 09:54:33 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 09:54:33 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:12:07 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:12:07 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:12:08 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:12:08 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:29:00 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:29:01 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:29:01 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:29:02 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:29:02 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:29:48 StandardWrapperValve[S_Loc_Rev_Servlet]: Servlet.service() for servlet S_Loc_Rev_Servlet threw exception
+java.lang.NullPointerException
+	at S_Loc_Rev_Servlet.doGet(S_Loc_Rev_Servlet.java:62)
+	at S_Loc_Rev_Servlet.doPost(S_Loc_Rev_Servlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2007-06-06 10:30:14 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:30:14 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:30:14 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:30:14 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:32:16 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:32:17 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:32:17 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:32:17 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:32:17 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:32:51 StandardWrapperValve[S_Loc_Rev_Servlet]: Servlet.service() for servlet S_Loc_Rev_Servlet threw exception
+java.lang.NullPointerException
+	at S_Loc_Rev_Servlet.doGet(S_Loc_Rev_Servlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:697)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2007-06-06 10:39:50 StandardWrapperValve[S_Loc_Rev_Servlet]: Servlet.service() for servlet S_Loc_Rev_Servlet threw exception
+java.lang.NullPointerException
+	at S_Loc_Rev_Servlet.doGet(S_Loc_Rev_Servlet.java:62)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:697)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:595)
+
+2007-06-06 10:42:22 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:42:22 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:42:22 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:42:22 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:43:06 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:43:07 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:43:07 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:43:07 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:43:07 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:47:25 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:47:25 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:47:25 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:47:25 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:47:41 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:47:42 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:47:42 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:47:42 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:47:42 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:50:40 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:50:40 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:50:40 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:50:40 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:51:04 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:51:05 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:51:05 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:51:05 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:51:05 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:52:30 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:52:30 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:52:31 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:52:31 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:52:49 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:52:49 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:52:49 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:52:50 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:52:50 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:54:57 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:54:57 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:54:58 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:54:58 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:55:12 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:55:13 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:55:13 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:55:13 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:55:13 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:56:59 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:56:59 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:56:59 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:56:59 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:57:17 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:57:18 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:57:18 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:57:18 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:57:18 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 10:59:07 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 10:59:07 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 10:59:08 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 10:59:08 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 10:59:22 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 10:59:22 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 10:59:22 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 10:59:23 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 10:59:23 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:00:13 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:00:13 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:00:13 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:00:13 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:02:12 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:02:13 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:02:13 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:02:13 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:02:13 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:04:22 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:04:22 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:04:22 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:04:22 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:04:53 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:04:53 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:04:53 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:04:54 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:04:54 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:05:57 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:05:57 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:05:58 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:05:58 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:06:23 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:06:23 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:06:23 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:06:24 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:06:24 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:07:00 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:07:00 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:07:01 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:07:01 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:07:33 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:07:34 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:07:34 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:07:34 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:07:34 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:08:18 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:08:18 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:08:19 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:08:19 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:28:18 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:28:19 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:28:19 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:28:21 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:28:21 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:34:32 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:34:32 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:34:32 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:34:32 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:35:31 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:35:31 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:35:31 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:35:32 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:35:32 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:38:55 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:38:55 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:38:55 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:38:55 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:39:28 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:39:28 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:39:28 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:39:29 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:39:29 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:41:04 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:41:04 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:41:05 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:41:05 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2007-06-06 11:41:36 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2007-06-06 11:41:37 StandardContext[/jsp-examples]ContextListener: contextInitialized()
+2007-06-06 11:41:37 StandardContext[/jsp-examples]SessionListener: contextInitialized()
+2007-06-06 11:41:37 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2007-06-06 11:41:37 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2007-06-06 11:45:57 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-06-06 11:45:57 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-06-06 11:45:57 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-06-06 11:45:57 StandardContext[/servlets-examples]ContextListener: contextDestroyed()

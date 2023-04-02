@@ -1,0 +1,30 @@
+2022-11-08 10:43:13 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2022-11-08 10:43:14 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2022-11-08 10:43:14 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2022-11-08 10:58:10 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2022-11-08 10:58:10 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2022-11-08 10:58:14 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2022-11-08 10:58:14 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2022-11-08 10:58:14 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2022-11-08 11:42:01 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2022-11-08 11:42:01 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2022-11-08 11:43:24 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2022-11-08 11:43:24 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2022-11-08 11:43:24 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2022-11-08 11:48:46 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2022-11-08 11:48:46 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2022-11-08 12:55:10 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2022-11-08 12:55:10 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2022-11-08 12:55:10 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2022-11-08 12:56:22 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2022-11-08 12:56:22 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2022-11-08 12:56:32 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2022-11-08 12:56:32 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2022-11-08 12:56:32 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2022-11-08 12:58:04 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2022-11-08 12:58:04 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2022-11-08 18:23:46 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2022-11-08 18:23:46 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2022-11-08 18:23:46 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2022-11-08 19:19:18 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2022-11-08 19:19:18 StandardContext[/servlets-examples]ContextListener: contextDestroyed()

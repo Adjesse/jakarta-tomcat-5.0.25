@@ -1,0 +1,4 @@
+2007-01-19 08:24:30 StandardContext[/jsp-examples]SessionListener: contextDestroyed()
+2007-01-19 08:24:30 StandardContext[/jsp-examples]ContextListener: contextDestroyed()
+2007-01-19 08:24:31 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2007-01-19 08:24:31 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
