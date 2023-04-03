@@ -1,58 +1,89 @@
-		<!-- Price.html -->
-	<html>
-	  <head>
-	    <title>Select salePrice</title>
-	  </head>
-	  <body bgcolor="#0000ff">
-          &nbsp;<p align="center"><font color="#000000"><b>
-        <font face="Arial" size="4">&nbsp;</font><font face="Bernard MT Condensed" size="5">Homes Equal To Or Less Than</font></b></font></p>
-	 
-	    
-		<center>Please enter a price</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select salePrice</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #44445a;
+            color: #f8f8ff;
+            padding: 20px;
+        }
 
-	    <form method = "get" action = "/MCS5303/Price">
-	        <p>&nbsp;&nbsp;&nbsp;&nbsp; 
-			</p>
-            
-			<center>
-                
-	        Price<font color = "#f8f8ff"></font>
-	        <input type = "text" name = "price">&nbsp;
-	        </p>
-	         
-			<p><input type = "submit" name = "Submit" value = "Submit">
-	        <input type = "reset" value = "Reset">
-	        </p>
-	     </form>
-         <p>
-	    <p><font color = "#800000"> </font></p>
-        </p>
-        </center>
-		 <OBJECT classid=CLSID:D45FD31B-5C6E-11D1-9EC1-00C04FD7081F id=ricci width="32"
+        h1 {
+            font-family: 'Bernard MT Condensed', sans-serif;
+            font-size: 28px;
+            text-align: center;
+        }
 
-height="32"></OBJECT>
-<SCRIPT>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
 
-var MerlinID;
-var MerlinACS;
-ricci.Connected = true;
-MerlinLoaded = LoadLocalAgent(MerlinID, MerlinACS);
-Merlin = ricci.Characters.Character(MerlinID);
-Merlin.Show();
-Merlin.Play("congratulate");
-Merlin.Speak("Ok, What's  the most you wish to spend for a house?.");
-Merlin.Play("domagic1");
-//Merlin.Speak("Greating Doctor Azar, I am glad to see you at..house dot com.  ");
-Merlin.Hide();
-function LoadLocalAgent(CharID, CharACS) {
-LoadReq = ricci.Characters.Load(CharID, CharACS);
-return(true);
-}
-// BY STAR28.com
-</SCRIPT>
-		   
-		
-		
-		
-	  </body>
+        label {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        input[type="text"] {
+            font-size: 16px;
+            padding: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            font-size: 16px;
+            padding: 5px 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #996633;
+            color: white;
+            border: none;
+        }
+
+        input[type="reset"] {
+            background-color: white;
+            color: #0000ff;
+            border: 1px solid #f8f8ff;
+        }
+		.home-link {
+            display: inline-block;
+            background-color: #996633;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .home-link:hover {
+            background-color: #b3764a;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+	<a href="../index.html" class="home-link">Home</a>
+    <h1>Homes Equal To Or Less Than</h1>
+    <p align="center">Please enter a price</p>
+
+    <form method="get" action="/MCS5303/Price">
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price">
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- Removed JavaScript and OBJECT tag related to Microsoft Agent, as it is an outdated technology and not supported in modern browsers. -->
+</body>
 </html>
