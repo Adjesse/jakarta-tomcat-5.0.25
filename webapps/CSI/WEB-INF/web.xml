@@ -201,6 +201,15 @@
      <servlet-name>index</servlet-name>
      <url-pattern>/index</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddOwner</servlet-name>
+    <servlet-class>AddOwner</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddOwner</servlet-name>
+    <url-pattern>/AddOwner</url-pattern>
+</servlet-mapping>
 
 </web-app>
 
