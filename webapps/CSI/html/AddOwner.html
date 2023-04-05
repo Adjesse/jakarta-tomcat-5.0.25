@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adding a Owner</title>
+    <title>Adding a Person and Owner</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -29,13 +29,29 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="text-center mt-4 mb-4">Add A New Owner</h2>
-        <p class="text-center">Please enter person id and name.</p>
+        <h2 class="text-center mt-4 mb-4">Add A New Person and Owner</h2>
+        <p class="text-center">Please enter the following information.</p>
         <div class="form-container">
-            <form method="post" action="/CSI/AddOwner">
+            <form method="post" action="/CSI/AddPersonAndOwner">
                 <div class="form-group">
-                    <label class="form-label" for="PERSONID">Person ID <span class="required-field">*</span></label>
-                    <input type="text" class="form-control" name="PERSONID" id="PERSONID" placeholder="Can be any number of digits">
+                    <label class="form-label" for="NAME">Name <span class="required-field">*</span></label>
+                    <input type="text" class="form-control" name="NAME" id="NAME" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="SSN">Social Security Number <span class="required-field">*</span></label>
+                    <input type="number" class="form-control" name="SSN" id="SSN" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="DRIVERSLICENSENR">Driver's License Number <span class="required-field">*</span></label>
+                    <input type="text" class="form-control" name="DRIVERSLICENSENR" id="DRIVERSLICENSENR" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="BIRTHDATE">Birth Date <span class="required-field">*</span></label>
+                    <input type="date" class="form-control" name="BIRTHDATE" id="BIRTHDATE" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="BIRTHPLACE">Birth Place <span class="required-field">*</span></label>
+                    <input type="text" class="form-control" name="BIRTHPLACE" id="BIRTHPLACE" required>
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="PROFESSION">Profession</label>
@@ -43,15 +59,16 @@
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="INCOME">Income</label>
-                    <input type="text" class="form-control" name="INCOME" id="INCOME">
+                    <input type="number" class="form-control" name="INCOME" id="INCOME">
                 </div>
                 <div class="form-group text-center">
                     <button type="submit" name="Submit" class="btn btn-primary mr-2">Submit</button>
-                    <button type="reset" class="btn btn-secondary">Reset</button>
-                </div>
-            </form>
-            <p class="text-center"><span class="required-field">Note: * required fields</span></p>
-        </div>
+                    <button type="reset" class="btn btn-secondary
+                    ">Reset</button>
+            </div>
+        </form>
+        <p class="text-center"><span class="required-field">Note: * required fields</span></p>
     </div>
+</div>
 </body>
 </html>
