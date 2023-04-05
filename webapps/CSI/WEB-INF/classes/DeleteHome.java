@@ -16,6 +16,7 @@ public class DeleteHome extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         String HOMEID = request.getParameter("HOMEID");
+		
 
         try {
             if (HOMEID.length() == 0) {
@@ -32,6 +33,7 @@ public class DeleteHome extends HttpServlet {
             out.println("</body></html>");
         } catch (Exception ex) {
             out.println("\n Error: " + ex.getMessage());
+    		ex.printStackTrace(); // Add this line to print the stack trace
         } finally {
             out.close();
         }
@@ -50,9 +52,10 @@ public class DeleteHome extends HttpServlet {
             String user = "CSIPROJECT";
             String password = "mohammed";
             Connection conn = DriverManager.getConnection(url, user, password);
-            pstmt = conn.prepareStatement("DELETE FROM homes WHERE HOMEID = ?");
+            pstmt = conn.prepareStatement("DELETE FROM homes WHERE (HOMEID) = (?)");
         } catch (Exception ex) {
             ex.printStackTrace();
+			
         }
     }
 
