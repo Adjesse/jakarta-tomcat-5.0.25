@@ -205,11 +205,11 @@
   <servlet>
     <servlet-name>AddOwner</servlet-name>
     <servlet-class>AddOwner</servlet-class>
-</servlet>
-<servlet-mapping>
+  </servlet>
+
+  <servlet-mapping>
     <servlet-name>AddOwner</servlet-name>
     <url-pattern>/AddOwner</url-pattern>
-</servlet-mapping>
-
+  </servlet-mapping>
 </web-app>
 

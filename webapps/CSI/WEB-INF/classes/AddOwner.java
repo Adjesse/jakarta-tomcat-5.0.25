@@ -14,9 +14,10 @@ public class AddOwner extends HttpServlet {
     response.setContentType("text/html");
     PrintWriter out = response.getWriter();
 
-    String personId = request.getParameter("personId");
-    String profession = request.getParameter("profession");
-    String income = request.getParameter("income");
+    String personId = request.getParameter("PERSONID");
+    String profession = request.getParameter("PROFESSION");
+    String income = request.getParameter("INCOME");
+
 
     try {
       if (personId.length() == 0) {
