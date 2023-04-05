@@ -320,3 +320,6 @@ java.lang.NullPointerException
 2023-04-04 18:08:54 StandardContext[/servlets-examples]SessionListener: contextInitialized()
 2023-04-04 18:31:32 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
 2023-04-04 18:31:32 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 18:31:35 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 18:31:35 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 18:31:35 StandardContext[/servlets-examples]SessionListener: contextInitialized()
