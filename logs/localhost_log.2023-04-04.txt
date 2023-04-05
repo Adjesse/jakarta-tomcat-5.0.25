@@ -1,0 +1,322 @@
+2023-04-04 15:43:44 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 15:43:45 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 15:43:45 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 15:45:43 StandardWrapperValve[DeleteHome]: Servlet.service() for servlet DeleteHome threw exception
+java.lang.NullPointerException
+	at DeleteHome.doPost(DeleteHome.java:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:03:06 StandardContext[/CSI]Marking servlet AddOwner as unavailable
+2023-04-04 16:03:06 StandardContext[/CSI]Error loading WebappClassLoader
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+StandardClassLoader
+  delegate: true
+  repositories:
+----------> Parent Classloader:
+StandardClassLoader
+  delegate: true
+  repositories:
+    file:C:\jakarta-tomcat-5.0.25\common\endorsed\xercesImpl.jar
+    file:C:\jakarta-tomcat-5.0.25\common\endorsed\xmlParserAPIs.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\ant.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-collections.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-dbcp-1.1.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-el.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\commons-pool-1.1.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\jasper-compiler.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\jasper-runtime.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\jsp-api.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-common.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-factory.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-java.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\naming-resources.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\servlet-api.jar
+    file:C:\jakarta-tomcat-5.0.25\common\lib\servlet.jar
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@33909752
+
+
+ AddOwner
+java.lang.ClassNotFoundException: AddOwner
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1340)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1189)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:954)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:03:06 StandardWrapperValve[AddOwner]: Allocate exception for servlet AddOwner
+javax.servlet.ServletException: Wrapper cannot find servlet class AddOwner or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:964)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+----- Root Cause -----
+java.lang.ClassNotFoundException: AddOwner
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1340)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1189)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:954)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:687)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:144)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:17:44 StandardWrapperValve[DeleteHome]: Servlet.service() for servlet DeleteHome threw exception
+java.lang.NullPointerException
+	at DeleteHome.doPost(DeleteHome.java:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:49:24 StandardWrapperValve[DeleteHome]: Servlet.service() for servlet DeleteHome threw exception
+java.lang.NullPointerException
+	at DeleteHome.doPost(DeleteHome.java:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:50:03 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 16:50:03 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 16:50:08 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 16:50:08 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 16:50:08 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 16:50:30 StandardWrapperValve[DeleteHome]: Servlet.service() for servlet DeleteHome threw exception
+java.lang.NullPointerException
+	at DeleteHome.doPost(DeleteHome.java:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:52:29 StandardWrapperValve[DeleteHome]: Servlet.service() for servlet DeleteHome threw exception
+java.lang.NullPointerException
+	at DeleteHome.doPost(DeleteHome.java:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:810)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:237)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:157)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardContextValve.invokeInternal(StandardContextValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:152)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:102)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.core.StandardValveContext.invokeNext(StandardValveContext.java:104)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:520)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:929)
+	at org.apache.coyote.tomcat5.CoyoteAdapter.service(CoyoteAdapter.java:160)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:793)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:702)
+	at org.apache.tomcat.util.net.TcpWorkerThread.runIt(PoolTcpEndpoint.java:571)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:644)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023-04-04 16:54:15 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 16:54:15 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 16:54:18 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 16:54:18 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 16:54:18 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 16:56:11 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 16:56:11 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 16:56:17 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 16:56:17 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 16:56:17 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 17:00:51 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 17:00:51 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 17:00:54 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 17:00:54 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 17:00:54 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 17:11:09 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 17:11:09 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 17:11:10 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 17:11:11 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 17:11:11 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 17:36:06 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 17:36:06 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 17:36:08 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 17:36:08 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 17:36:08 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 17:44:29 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 17:44:29 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 17:44:31 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 17:44:31 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 17:44:31 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 17:48:23 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 17:48:23 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 17:48:25 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 17:48:25 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 17:48:25 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 18:07:51 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 18:07:51 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 18:07:54 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 18:07:54 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 18:07:54 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 18:08:52 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 18:08:52 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
+2023-04-04 18:08:54 StandardContext[/balancer]org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balancer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramValue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]]
+2023-04-04 18:08:54 StandardContext[/servlets-examples]ContextListener: contextInitialized()
+2023-04-04 18:08:54 StandardContext[/servlets-examples]SessionListener: contextInitialized()
+2023-04-04 18:31:32 StandardContext[/servlets-examples]SessionListener: contextDestroyed()
+2023-04-04 18:31:32 StandardContext[/servlets-examples]ContextListener: contextDestroyed()
