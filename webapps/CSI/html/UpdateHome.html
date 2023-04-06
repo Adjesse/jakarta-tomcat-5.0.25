@@ -6,15 +6,17 @@
       <title>Update a Home</title>
       <style>
          body {
-         font-family: 'Arial', sans-serif;
+         font-family: Arial, sans-serif;
          background-color: #ffa154;
          color: #000000;
          padding: 20px;
+         margin: 0;
          }
          h1 {
          font-family: 'Bernard MT Condensed', sans-serif;
          font-size: 28px;
          text-align: center;
+         margin-bottom: 15px;
          }
          form {
          display: flex;
@@ -28,15 +30,12 @@
          td {
          padding: 10px;
          }
-         label {
-         font-size: 18px;
-         margin: 10px 0;
-         }
          input[type="text"] {
          font-size: 16px;
          padding: 5px;
          width: 100%;
          max-width: 300px;
+         box-sizing: border-box;
          }
          input[type="submit"],
          input[type="reset"] {
@@ -44,6 +43,7 @@
          padding: 5px 20px;
          margin: 10px;
          border-radius: 5px;
+         cursor: pointer;
          }
          input[type="submit"] {
          background-color: #996633;
@@ -60,6 +60,8 @@
          }
          .note {
          color: #FF0000;
+         text-align: center;
+         margin-top: 10px;
          }
          .home-link {
          display: inline-block;
@@ -99,8 +101,9 @@
                <td><input type="text" name="FLOORS" size="25"></td>
             </tr>
             <tr>
-               <td>Bedrooms</td
-               <td><input type="text" name="BEDROOMS" size="25"></td>
+               <td>Bedrooms</td>
+               <td><input type="text" name="BEDROOMS" size="
+                  25"></td>
             </tr>
             <tr>
                <td>Full Bathrooms</td>
